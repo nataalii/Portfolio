@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@keyframes motion {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+body {
+    font-family: 'Castoro Titling', cursive;
+}
+.animate-motion {
+    animation: motion 2s ease-in-out infinite;
+}
