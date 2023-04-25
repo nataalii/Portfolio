@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Source+Code+Pro:wght@600&display=swap');
 @keyframes motion {
     0% {
         transform: scale(1);
@@ -15,9 +15,16 @@
         transform: scale(1);
     }
 }
+::-webkit-scrollbar {
+    width: 5px;
+}
 
+::-webkit-scrollbar-thumb {
+    background: darkgrey;
+    border-radius: 10px;
+}
 body {
-    font-family: 'Castoro Titling', cursive;
+    font-family: 'Source Code Pro', monospace;
 }
 .animate-motion {
     animation: motion 2s ease-in-out infinite;

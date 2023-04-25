@@ -2,17 +2,16 @@ import { HashLink as Link } from 'react-router-hash-link';
 import laptop from '/public/images/laptop.png';
 const NavBar = () => {
   return (
-    <nav className='h-44 flex items-center justify-between px-10 pr-44 fixed w-screen z-20 text-white'>
-      <div>
-        <Link to='#home'>
-          <img
-            src={laptop}
-            alt='Laptop'
-            className=' w-52 drop-shadow-image-shadow'
-          />
-        </Link>
+    <nav className='h-44 flex items-center justify-between px-16 pr-40 fixed w-screen z-20 text-white text-2xl font-bold uppercase'>
+      <div className=' flex items-center '>
+        <img
+          src={laptop}
+          alt='Laptop'
+          className=' w-24 drop-shadow-image-shadow'
+        />{' '}
+        <Link to='#home'>Portfolio</Link>
       </div>
-      <div className=' flex w-[700px] justify-between text-2xl font-bold uppercase'>
+      <div className=' flex w-[600px] justify-between '>
         <Link smooth to='#home'>
           Home
         </Link>
