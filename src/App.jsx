@@ -1,6 +1,6 @@
+import { ToastContainer } from 'react-toastify';
 import NavBar from './components/NavBar/NavBar';
-import Home from './pages/Home/Home';
-import { Skills } from './pages/Skills';
+import { Contact, Home, Projects, Skills } from './pages';
 
 function App() {
   return (
@@ -8,6 +8,9 @@ function App() {
       <NavBar />
       <Home />
       <Skills />
+      <Projects />
+      <Contact />
+      <ToastContainer />
     </>
   );
 }

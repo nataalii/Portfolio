@@ -24,6 +24,10 @@ export const SkillsConfig = [
     title: 'Typescript',
   },
   {
+    image: 'tailwind',
+    title: 'Tailwind CSS',
+  },
+  {
     image: 'laravel',
     title: 'Laravel',
   },
@@ -34,9 +38,5 @@ export const SkillsConfig = [
   {
     image: 'mysql',
     title: 'MySQL',
-  },
-  {
-    image: 'tailwind',
-    title: 'Tailwind CSS',
   },
 ];

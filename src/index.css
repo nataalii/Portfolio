@@ -23,9 +23,15 @@
     background: darkgrey;
     border-radius: 10px;
 }
+.bg-linear-gradient {
+    background: linear-gradient(180deg, #7082a1 0%, #8da4d0 30%, rgba(0, 0, 0, 0) 100%),
+        linear-gradient(90deg, #7187af 0%, rgba(155, 155, 155, 0) 30%, rgba(80, 78, 97, 0) 40%, rgba(0, 0, 0, 0) 100%);
+}
+
 body {
     font-family: 'Source Code Pro', monospace;
 }
+
 .animate-motion {
     animation: motion 2s ease-in-out infinite;
 }
