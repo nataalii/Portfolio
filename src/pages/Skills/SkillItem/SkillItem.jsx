@@ -17,7 +17,7 @@ const SkillItem = (props) => {
          items-center justify-center'
       >
         <img
-          src={`/public/images/${props.image}.png`}
+          src={`/images/${props.image}.png`}
           alt={props.title}
           className=' w-20'
         />
