@@ -1,6 +1,8 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import { motion } from 'framer-motion';
 import Profile from '/public/images/profile.png';
+import Github from '/public/images/github.png';
+import Linkedin from '/public/images/linkedin.png';
 const Home = () => {
   return (
     <div
@@ -31,19 +33,19 @@ const Home = () => {
 
         <div className=' flex items-center gap-3 mt-5'>
           <p className=' text-xl font-semibold'>Cheek out My: </p>
+          <a href='https://github.com/nnataali' target='blank'>
+            <img
+              src={Github}
+              alt='github'
+              className=' w-16 hover:scale-105 transition-all duration-300'
+            />
+          </a>
           <a
             href='https://www.linkedin.com/in/natalicharkviani/'
             target='blank'
           >
             <img
-              src='/public/images/github.png'
-              alt='github'
-              className=' w-16 hover:scale-105 transition-all duration-300'
-            />
-          </a>
-          <a href='https://github.com/nnataali' target='blank'>
-            <img
-              src='/public/images/linkedin.png'
+              src={Linkedin}
               alt='linkedin'
               className=' w-16 hover:scale-105 transition-all duration-300'
             />

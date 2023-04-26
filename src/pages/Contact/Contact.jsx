@@ -4,6 +4,7 @@ import ContactInfo from './components/ContactInfo/ContactInfo';
 import TextInput from './components/TextInput/TextInput';
 import 'react-toastify/dist/ReactToastify.min.css';
 import useContact from './useContact';
+import ContactImage from '/public/images/contact.webp';
 const Contact = () => {
   const { methods, onSubmit, form } = useContact();
   return (
@@ -14,7 +15,7 @@ const Contact = () => {
       />
       <div className=' bg-[#a9bcdd] min-h-screen relative flex flex-col items-center justify-center '>
         <img
-          src='/public/images/contact.webp'
+          src={ContactImage}
           alt='contact'
           className='w-full h-screen  absolute top-0 object-cover'
         />
