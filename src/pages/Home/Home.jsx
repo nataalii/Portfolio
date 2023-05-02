@@ -64,7 +64,7 @@ const Home = () => {
         <img
           src={Profile}
           alt='Profile Image'
-          className='drop-shadow-image-shadow animate-motion'
+          className='drop-shadow-image-shadow animate-motion max-h-[550px]'
         />
       </motion.div>
     </div>
