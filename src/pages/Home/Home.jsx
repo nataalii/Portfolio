@@ -54,7 +54,7 @@ const Home = () => {
       </motion.div>
 
       <motion.div
-        initial={{ x: '+20%', opacity: 0 }}
+        initial={{ x: '-20%', opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{
           type: 'spring',

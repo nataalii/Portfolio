@@ -7,11 +7,11 @@ export const ProjectsConfig = [
     links: [
       {
         content: 'Front-end Repository',
-        url: 'https://github.com/nnataali/epic-movie-quotes-front',
+        url: 'https://github.com/natalite/epic-movie-quotes-front',
       },
       {
         content: 'Back-end Repository',
-        url: 'https://github.com/nnataali/epic-movie-quotes-back',
+        url: 'https://github.com/natalite/epic-movie-quotes-back',
       },
     ],
   },
@@ -23,7 +23,7 @@ export const ProjectsConfig = [
     links: [
       {
         content: 'Github Repository',
-        url: 'https://github.com/nnataali/covid-questionnaire',
+        url: 'https://github.com/natalite/covid-questionnaire',
       },
     ],
   },
@@ -35,7 +35,7 @@ export const ProjectsConfig = [
     links: [
       {
         content: 'Github Repository',
-        url: 'https://github.com/nnataali/coronatime',
+        url: 'https://github.com/natalite/coronatime',
       },
     ],
   },
@@ -45,11 +45,11 @@ export const ProjectsConfig = [
     links: [
       {
         content: 'Github Repository',
-        url: 'https://github.com/nnataali/final_project',
+        url: 'https://github.com/natalite/final_project',
       },
       {
         content: 'Server',
-        url: 'https://nnataali.github.io/final_project/',
+        url: 'https://natalite.github.io/final_project/',
       },
     ],
   },

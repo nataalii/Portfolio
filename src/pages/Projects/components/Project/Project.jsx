@@ -19,7 +19,7 @@ const Project = (props) => {
       <div className='relative h-56 md:h-[400px] m-auto md:w-[70%] w-[95%]'>
         <img
           src={props.image}
-          className='absolute w-full h-[95%] sm:h-[90%]  rounded-lg'
+          className='absolute w-full h-[95%] sm:h-[90%] rounded-lg object-cover'
           alt='project img'
         />
         {isHovered && (
